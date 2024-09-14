@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Selector App</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <h1>Cat Selector</h1>
+
+    <div class="input-section">
+        <button id="allNamesBtn">All Names</button>
+    </div>
+
+    <div class="input-section">
+        <label for="healthInput">Health Issues:</label>
+        <input type="number" id="healthInput" placeholder="Enter health issue number">
+        <button id="healthBtn">Find Cats</button>
+    </div>
+
+    <div class="input-section">
+        <label>Weight:</label>
+        <input type="radio" id="imperial" name="weightUnits" value="imperial" checked>
+        <label for="imperial">Imperial</label>
+        <input type="radio" id="metric" name="weightUnits" value="metric">
+        <label for="metric">Metric</label>
+        <button id="weightBtn">Weight</button>
+    </div>
+
+    <div class="input-section">
+        <button id="intelligenceFriendlyBtn">Intelligence - Friendly</button>
+    </div>
+
+    <div class="input-section">
+        <button id="averageIntelligenceBtn">Average Intelligence</button>
+    </div>
+
+    <div class="input-section">
+        <button id="averageIntelligenceFriendlyBtn">Average Intelligence for Child Friendly</button>
+    </div>
+
+    <!-- Output Area -->
+    <div id="result" class="output-section">
+        <p><em>All Results should be displayed here</em></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
